@@ -3,7 +3,7 @@ layout: post
 title: We're up and running! (test post)
 ---
 
-**This is only a test post. i intend to delete it very soon.**
+**This is only a test post. I intend to delete it very soon.**
 
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
