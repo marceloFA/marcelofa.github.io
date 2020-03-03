@@ -242,6 +242,24 @@ nav {
 // .main
 //
 
+// Minutes to read feature
+.minutesToRead {
+  font-size: 12pt;
+  color: darken(lightgrey, 15%);
+  margin-top: -15px;
+}
+
+.mtr-post-list {
+  @extend .minutesToRead;
+  margin-bottom: 20px;
+}
+
+.mtr-post-entry {
+  @extend .minutesToRead;
+  margin-bottom: 40px;
+}
+
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
