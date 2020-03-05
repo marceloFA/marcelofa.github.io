@@ -8,7 +8,7 @@
  * @param {Number} numImages - The number of images in the post.
  * @param {Number} wpm  - The estimated words per minute that we expect the avg, user to read in.
  */
-function estimatedReadTime(id = '', numWords = 0, numImages = 0, wpm = 155) {
+function estimatedReadTime(id = '', numWords = 0, numImages = 0, wpm = 170) {
     const minutes = Math.ceil((numWords / wpm) + numImages).toLocaleString();
     document.getElementById(id).innerText = `${minutes} min read`;
 }
